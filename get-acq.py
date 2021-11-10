@@ -3,10 +3,6 @@ import requests
 import json
 import argparse
 
-
-#parser = argparse.ArgumentParser(add_help=True)
-#parser.add_argument('-o', '--organisation', help='Specify the file containing organisation names (lovercase)')
-
 parser = argparse.ArgumentParser(add_help=True)
 parser.add_argument('-d', '--domains', help='Specify the list with  domains')
 parser.add_argument('-a', '--apikey', help='Provide securitytrails API key')
