@@ -11,4 +11,4 @@ RUN git clone https://github.com/kljunowsky/get-acq /app
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["get-acq.py"]
+ENTRYPOINT ["python", "get-acq.py"]
