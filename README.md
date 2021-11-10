@@ -1,7 +1,6 @@
 # get-acq 🏢 
 
-GET-ACQ is python tool used to gather all companies aquised by given company domain name. It is done by calling SecurityTrails API.
-
+GET-ACQ is a python tool used to gather all companies acquired by a given company domain name. It is done by calling SecurityTrails API.
 ## Usage 🛠 
 
 python3 get-acq.py --domains domains.txt -a <API_KEY> -o output.txt
