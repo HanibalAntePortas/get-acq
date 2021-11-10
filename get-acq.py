@@ -20,12 +20,7 @@ with open(args.domains, 'r') as f:
 		url = "https://api.securitytrails.com/v1/domain/"+domain+"/acquisitions"
 		headers = {"apikey": apikey}
 		response = requests.get(url, headers=headers)
-		#response = requests.get(url)
-
-		#print(url)
 		json_data = json.loads(response.text)
-		#print(json_data)
-		#print(apikey)
 
 with open(output, "a") as o:
 	o.write(str(json_data))
