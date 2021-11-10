@@ -8,7 +8,7 @@ python3 get-acq.py --domains domains.txt -a <API_KEY> -o output.txt
 
 ## Running from Docker 🐳 
 
-docker run -ti -v $(PWD)/data:/data get-acq -u /data/domains.txt -a <API_KEY> -o /data/output.txt
+docker run -ti -v $(PWD)/data:/data get-acq -d /data/domains.txt -a <API_KEY> -o /data/output.txt
 ## Parameters 🧰 
 
 Parameter | Description | Type
